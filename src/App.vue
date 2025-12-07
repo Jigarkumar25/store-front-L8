@@ -109,7 +109,7 @@ export default {
 
 <style>
 body {
-  background-image: url('@/assets/algonquin.jpg');
+  background-image: url('@/assets/bestbuy.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Keeps the background in place when scrolling */
@@ -131,7 +131,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #0a5620;
+  background-color: #0046be;
   color: #fff;
   padding: 1rem;
   margin: 0;
@@ -161,7 +161,7 @@ a {
 
 button {
   padding: 10px;
-  background-color: #005f8b;
+  background-color: #f4c20d;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -215,8 +215,9 @@ button {
   margin-right: 20px;
 }
 
-.product-controls button:hover {
-  background-color: #005f8b;
+.product-controls button:hover,
+.checkout-button:hover {
+  background-color: #ffd54f; 
 }
 
 .product-price {
@@ -269,8 +270,8 @@ button {
 .checkout-button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007acc;
-  color: #fff;
+  background-color: #f4c20d;
+  color: #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;

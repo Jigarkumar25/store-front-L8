@@ -2,7 +2,7 @@
   <nav>
     <div class="logo">
       <a href="/">
-        <img src="/algonquin-pet-store.png" alt="Algonquin Pet Store Logo">
+        <img src="/bestbuylogo.png" alt="Best Buy Tech Store Logo">
       </a>
     </div>
     <button class="hamburger" @click="toggleNav">
@@ -40,7 +40,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3c673cd7;
+  /* changed to Best Buy style blue */
+  background-color: #0046be;
   color: #fff;
   padding-top: 0.5rem;
   padding-left: 1rem;
@@ -55,6 +56,10 @@ nav {
 nav img {
   width: 60px;
   height: auto;
+  background: transparent;
+  display: block;
+  border: none;
+  outline: none;
 }
 
 .nav-links {
